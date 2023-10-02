@@ -1,0 +1,10 @@
+Analyzing the time complexity and stability of Bubble Sort:
+Time Complexity: Bubble Sort has an average and worst-case time complexity of O(n^2) because it involves nested loops. In the best case (when the array is already sorted), it has a time complexity of O(n) due to the optimized flag.
+
+Stability: Bubble Sort is a stable sorting algorithm. It does not change the relative order of equal elements.
+
+Performance on different inputs:
+
+Best Case: O(n) - When the array is already sorted.
+Worst Case: O(n^2) - When the array is reverse sorted.
+Average Case: O(n^2) - For random data.
